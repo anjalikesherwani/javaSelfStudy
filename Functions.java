@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Functions{
     public static void printMyName(String name) {
         System.out.println("My name is " + name);
