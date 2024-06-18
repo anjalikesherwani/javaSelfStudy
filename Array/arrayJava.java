@@ -45,5 +45,32 @@ public class arrayJava {
         System.out.println("Sum : "+ sum);
         System.out.println("length : " + length);
         System.out.println("The Average age is : "+ avg);
+
+        // multidimensional array
+        // int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+        // System.out.println(myNumbers[1][2]);
+
+        // change the value of an element
+        // int[][] myNumber = { {1, 2, 3, 4}, {5, 6, 7} };
+        // myNumber[1][2] = 9;
+        // System.out.println(myNumber[1][2]); 
+
+
+        // Loop Through a Multi-Dimensional Array
+        // int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+        // for (int i = 0; i < myNumbers.length; ++i) {
+        //   for (int j = 0; j < myNumbers[i].length; ++j) {
+        //     System.out.println(myNumbers[i][j]);
+        //   }
+        // }
+ 
+        
+        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+        for (int[] row : myNumbers) {
+          for (int i : row) {
+            System.out.println(i);
+          }
+        }
+    
     }
 }
